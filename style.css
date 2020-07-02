@@ -50,18 +50,32 @@ h2 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+
 }
 
 .exp {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-}
-
-#back-up{
-    margin-right: 60px;
+    float: left;
+    background-position: left;
 
 }
-#back-up1{
-    margin-right: 60px;
 
+.single-experience{
+   box-shadow: 10px 10px 40px gray;
+   border-radius: 5px;
+   height: 60%;
+   background-color: white;
+}
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    margin-right: 20px;
+
+}
+#baby-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 }
